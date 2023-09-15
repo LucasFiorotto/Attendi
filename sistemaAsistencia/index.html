@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <a href="gestionMaterias.php">Gestionar Materias</a>
+    <div>
+        <a href="ABM_alumno.php">ABM Alumno</a>
+        <br>
+        <a href="AMB_profesor.php">ABM Profesor</a>
+    </div>
+
+    <div>
+        <form action="" method="post">
+            <label for="dni_alumno">DNI del Alumno: </label>
+            <input type="number" id="dni_alumno" name="dni_alumno">
+            <button type="submit">Consultar</button>
+        </form>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
