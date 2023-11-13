@@ -1,6 +1,10 @@
 # Attendi
 Sistema de gestión de asistencias.
 
+## Tecnologías
+- PHP 8.1.
+- Bootstrap 5.
+
 ## Instalación
 1. Clonar el repositorio haciendo click en "<>Code" o "<>Codigo" y después en "Download ZIP" o "Descargar ZIP".
 2. Una vez descargado el archivo .ZIP, descomprimirlo y dentro ubicar la carpeta del proyecto con el nombre "Attendi".
@@ -16,7 +20,3 @@ Sistema de gestión de asistencias.
     - En **PHPmyAdmin**: abrir una base de datos ya creada y hacer click en "Importar", seleccionar el script deseado y abrirlo.
 6. Abrir un navegador web y dirigirse a la siguiente direccion URL: **localhost/Attendi/Inicio/index.php**
 7. Listo!
-   
-## Tecnologías
-- PHP 8.1.
-- Bootstrap 5.
